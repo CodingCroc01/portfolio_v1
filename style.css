@@ -1,0 +1,168 @@
+body {
+  margin: 0;
+  padding: 0;
+  color: #40514e;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.topcontainer {
+  background-image: url("./public/bg-2.jpg");
+  background-size: cover;
+  height: 100vh;
+  position: relative;
+}
+
+h1 {
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  color: white;
+  text-align: center;
+  margin-top: 0;
+  font-size: 6rem;
+  position: relative;
+  top: 100px;
+}
+
+.middlecontainer {
+  background-color: #eef7ff;
+  height: 80vh;
+}
+
+#profilepic {
+  display: block;
+  margin: auto;
+  border-radius: 50%;
+  position: relative;
+  top: 100px;
+}
+
+.middlecontainer p {
+  width: 30%;
+  margin: auto;
+  position: relative;
+  top: 130px;
+  font-size: 1rem;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 2;
+  font-size: 1.2rem;
+}
+
+.middlecontainer button {
+  position: relative;
+  top: 160px;
+  background-color: #cde8e5;
+  padding: 10px;
+  border-radius: 20px;
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.projects {
+  margin-bottom: 100px;
+}
+
+.projects h2 {
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 4rem;
+  margin-top: 10;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  width: 1500px;
+  margin: auto;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  gap: 20px;
+}
+
+.flex-item {
+  height: 390px;
+  background-color: #b4d4ff;
+  flex-basis: 500px;
+}
+
+h3 {
+  font-size: 2rem;
+}
+
+.flex-container button {
+  background-color: #eef7ff;
+  padding: 10px;
+  border-radius: 20px;
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.bottomcontainer {
+  height: 55vh;
+  background-color: #7ab2b2;
+}
+
+.bottomcontainer h2 {
+  display: inline-block;
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+.contact p {
+  width: 1000px;
+  margin: auto;
+  line-height: 2;
+}
+
+.contact button {
+  margin-top: 30px;
+  background-color: #f7eedd;
+  padding: 15px;
+  border: none;
+  border-radius: 20px;
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.contact button:hover {
+  background-color: #008dda;
+}
+
+footer {
+  background-color: #4d869c;
+  height: 20vh;
+}
+
+footer a {
+  display: inline-block;
+  text-decoration: none;
+  margin: 50px 50px 0 50px;
+  color: #f7eedd;
+}
+
+footer p {
+  color: #f7eedd;
+  margin-top: 30px;
+  margin-left: 15px;
+}
